@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-bldx
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/cin4s-839-0024-tenant/cin4s-839-0024-app/devfile-sample-bldx@sha256:86c93d333ef26b83ab3acb8fb86702717eab9505599ca4644ef844b874141a11
+        name: my-nodejs
+        resources: {}
+status: {}
